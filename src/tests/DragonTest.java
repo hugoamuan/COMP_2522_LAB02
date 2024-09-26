@@ -19,19 +19,29 @@ public class DragonTest {
 
         System.out.println(dragon1.getDetails());
         System.out.println(c1.getDetails());
-        System.out.println("Ragnarok's firepower: " + dragon1.getFirePower());
-        System.out.println("Ragnarok is casting firebreath on Krenko!");
-        dragon1.breatheFire(c1);
-        System.out.println("20 damage is dealt to krenko!");
-        System.out.println("Krenko HP = " + c1.getHealth());
-        System.out.println("Ragnaroks firepower after casting: " + dragon1.getFirePower());
+//        System.out.println("Ragnarok's firepower: " + dragon1.getFirePower());
+//        System.out.println("Ragnarok is casting firebreath on Krenko!");
+//        dragon1.breatheFire(c1);
+//        dragon1.breatheFire(c1);
+//        dragon1.breatheFire(c1);
+//        dragon1.breatheFire(c1);
+//        dragon1.breatheFire(c1);
+//        dragon1.breatheFire(c1);
+//        dragon1.breatheFire(c1); dragon1.breatheFire(c1); dragon1.breatheFire(c1);
+//        dragon1.breatheFire(c1);
+//        dragon1.breatheFire(c1); dragon1.breatheFire(c1); dragon1.breatheFire(c1); dragon1.breatheFire(c1); dragon1.breatheFire(c1);
+//
+//        System.out.println("20 damage is dealt to krenko!");
+//        System.out.println("Krenko HP = " + c1.getHealth());
+//        System.out.println("Ragnaroks firepower after casting: " + dragon1.getFirePower());
 
         // Insufficient firepower also tested!
         // Max of 10 casts on a newly created creature
 
         // Testing restoration amount over max
-        dragon1.restoreFirePower(500);
-        System.out.println("Firepower = " + dragon1.getFirePower());
+//        dragon1.restoreFirePower(500);
+//        System.out.println("Firepower = " + dragon1.getFirePower());
+//        System.out.println("pew");
 
     }
 
